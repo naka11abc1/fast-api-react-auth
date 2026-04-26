@@ -18,6 +18,7 @@ function DashboardPage() {
   return (
     <div>
       <h1>ダッシュボード</h1>
+      <span>今は認証機能のみ</span>
       <button onClick={handleLogout}>ログアウト</button>
     </div>
   )
